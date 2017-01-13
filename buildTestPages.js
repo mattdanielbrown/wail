@@ -72,7 +72,7 @@ const sameDLOpts = [
     lim: 'images/checkSeed.png',
     sdl1: 'http://n0tan3rd.github.io/wail/sameDomain1.html',
     sdl2: 'http://n0tan3rd.github.io/wail/dummy3.html',
-    sdl3: 'http://n0tan3rd.github.io/wail/sameDomain2.html',
+    sdl3: 'http://n0tan3rd.github.io/wail/sameDomain3.html',
     edl1: 'http://www.cs.odu.edu/~lalkwai',
     edl2: 'http://www.cs.odu.edu/~maturban',
     edl3: 'http://www.cs.odu.edu/~anwala'
