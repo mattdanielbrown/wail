@@ -1,0 +1,36 @@
+.section
+    .row.center
+        h1.header.col.s12 My Test Same Domain Page #{pnum}
+    .row.center
+        .col.s12.m6
+            h4.center This webpage consists of
+            ol.collection
+                li.collection-item a base page (#{which})
+                if includeJs
+                    li.collection-item a JavaScript file (#{jsf})
+                if includeCss
+                    li.collection-item a CSS file #{stylel}
+                li.collection-item a local embedded image (#{lim})
+                li.collection-item a remote image (#{rim})
+        .col.s12.m6
+            h4.center The webpage also contains
+            .row.center
+                .col.s12.m6
+                    h5.center three same domain links
+                    ol.collection
+                        li.collection-item #[a(href=sdl1) #{sdl1}]
+                        li.collection-item #[a(href=sdl2) #{sdl2}]
+                        li.collection-item #[a(href=sdl3) #{sdl3}]
+                .col.s12.m6
+                    h5.center three external domain link
+                    ol.collection
+                        li.collection-item #[a(href=edl1) #{edl1}]
+                        li.collection-item #[a(href=edl2) #{edl2}]
+                        li.collection-item #[a(href=edl3) #{edl3}]
+    .row.center
+        .col.s12.m6
+            h5 The local image
+            img.responsive-img(src=lim)
+        .col.s12.m6
+            h5 The remote image
+            img.responsive-img(src=rim)

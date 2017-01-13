@@ -1,0 +1,31 @@
+h1 My Test Same Domain Page #{pnum}
+p
+    | This webpage consists of
+    ul
+        li a base page a base page (#{which})
+        li a local embedded image (#{lim})
+        li a remote image (#{rim})
+p
+    | The webpage also contains
+    table
+        tr
+            th three same domain links
+            th three external domain link
+        tr
+            td #[a(href=sdl1) #{sdl1}]
+            td #[a(href=edl2) #{edl2}]
+        tr
+            td #[a(href=sdl2) #{sdl2}]
+            td #[a(href=edl1) #{edl1}]
+        tr
+            td #[a(href=sdl3) #{sdl3}]
+            td #[a(href=edl3) #{edl3}]
+div(layout='row center-spread')
+    p
+        | #{lim}
+        br
+        img(src=lim)
+    p
+        | #{rim}
+        br
+        img(src=rim)

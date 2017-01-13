@@ -1,0 +1,21 @@
+doctype html
+html(lang='en-US')
+    head
+        meta(charset='utf-8')
+        if includeCss
+            link(href=stylel, type='text/css', rel='stylesheet', media='screen,projection')
+        else
+            unless mat
+                unless matFa
+                    style
+                        include sd3.css
+        title A simple same domain page #{pnum}
+    body
+        if mat
+            include sdlMat
+        else if matFa
+            include sdlMatFa
+        else
+            include sdlPlane
+        if includeJs
+            script(type='text/javascript', src=jsf)
