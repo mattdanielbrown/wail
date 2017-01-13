@@ -7,7 +7,7 @@ const pugDir = path.join(here, 'pug')
 
 const simpleOpts = {
   rim: 'https://avatars1.githubusercontent.com/u/4416806?v=3&s=200',
-  sdl1: 'http://n0tan3rd.github.io/wail/sameDomain1.html',
+  sdl1: 'http://n0tan3rd.github.io/wail/sameD1.html',
   sdl2: 'http://n0tan3rd.github.io/wail/sameDomain2.html',
   sdl3: 'http://n0tan3rd.github.io/wail/sameDomain3.html',
   edl1: 'https://github.com/oduwsdl',
@@ -24,6 +24,23 @@ const sameDLOpts = [
     mat: true,
     jsf: 'js/sd1.js',
     which: 'sameDomain1.html',
+    rim: 'http://www.cs.odu.edu/~mkelly/mofro.png',
+    lim: 'images/checkSeed.png',
+    sdl1: 'http://n0tan3rd.github.io/wail/simple.html',
+    sdl2: 'http://n0tan3rd.github.io/wail/sameDomain2.html',
+    sdl3: 'http://n0tan3rd.github.io/wail/sameDomain3.html',
+    edl1: 'http://www.cs.odu.edu/~mkelly',
+    edl2: 'http://www.cs.odu.edu/~mweigle',
+    edl3: 'http://www.cs.odu.edu/~mln'
+  },
+  {
+    stylel: 'css/sd1.css',
+    pnum: 1,
+    includeJs: true,
+    includeCss: true,
+    mat: true,
+    jsf: 'js/sd1.js',
+    which: 'sameD1.html',
     rim: 'http://www.cs.odu.edu/~mkelly/mofro.png',
     lim: 'images/checkSeed.png',
     sdl1: 'http://n0tan3rd.github.io/wail/simple.html',
