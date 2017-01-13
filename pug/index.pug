@@ -1,0 +1,144 @@
+doctype html
+html(lang='en-US')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0')
+        meta(charset='utf-8')
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(href='css/flex-layout-attribute.css', type='text/css', rel='stylesheet')
+        link(href='css/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+        link(href='css/font-awesome.css', type='text/css', rel='stylesheet')
+        link(href='css/style.css', type='text/css', rel='stylesheet')
+        link(rel='shortcut icon', href='images/whale_32.png', type='image/x-icon')
+        title Web Archiving Integration Layer (WAIL)
+    body
+        #index-banner.parallax-container
+            .section.no-pad-bot
+                .container
+                    br
+                    br
+                    .row.center.header-icon
+                        div(layout='row center-center')
+                            h1.header.center WAIL
+                            img#logo.circle.responsive-img(src='images/whale_64.png', alt='Web Archiving Integration Layer (WAIL)')
+                    .row.center
+                        h5.header.col.s12 Web Archiving Integration Layer
+                        h5.header.col.s12 One-Click User Instigated Preservation
+                    br
+                    br
+            .parallax
+                img(src='images/deepBlueSea3.jpg')
+        .container
+            .section
+                .row
+                    .col.s12.center
+                        h4 What Is It?
+                        p.left-align.flow-text
+                            | Web Archiving Integration Layer (WAIL) is a graphical user interface (GUI) atop multiple web
+                            | archiving tools intended to be used as an easy way for anyone to preserve and replay web pages.
+                    .col.s12.center
+                        p.left-align.flow-text
+                            | Tools included and accessible through the GUI are #[a(href='https://webarchive.jira.com/wiki/display/Heritrix/Heritrix') Heritrix 3.2.0]
+                            |  and #[a(href='https://github.com/ikreymer/pywb') Pywb 0.33.0].
+        .container
+            .section
+                .row.center
+                    h4.card-title.header.col.s12 Screenshots
+                .row
+                    .col.s12.m6.l6
+                        .card
+                            .card-image
+                                img.materialboxed.responsive-img(src='images/wailHome.png')
+                    .col.s12.m6.l6
+                        .card
+                            .card-image
+                                img.materialboxed.responsive-img(src='images/collectionView.png')
+        .container
+            .section
+                .row.center
+                    h4.header.col.s12 Basic Use Case
+                .video-container
+                    iframe(width='560', height='315', src=youtubelink, frameborder='0', allowfullscreen='')
+        .container
+            .section
+                .row.center
+                    h4.header.col.s12 Usage
+                    h5.center
+                        | For More Detailed Usage Information Visit The #[a(href=wikilink) Wiki]
+                .row
+                    .col.s12.m4
+                        .icon-block
+                            h4.center
+                                | MacOS #[i.fa.fa-apple(aria-hidden='true')]
+                            ol.collection
+                                li.collection-item
+                                    a(href=macosdl) Download
+                                    |                             and mount the DMG
+                                li.collection-item
+                                    | Drag the WAIL icon from the disk image to the /Applications
+                                    | directory
+                                li.collection-item Launch WAIL.app
+                    .col.s12.m4
+                        .icon-block
+                            h4.center
+                                | Linux #[i.fa.fa-linux(aria-hidden='true')]
+                            ol.collection
+                                li.collection-item
+                                    a(href=linuxdl) Download
+                                    |                             and unzip the file
+                                li.collection-item Drag the WAIL folder to a location of your choosing
+                                li.collection-item Launch WAIL
+                    .col.s12.m4
+                        .icon-block
+                            h4.center
+                                | Windows #[i.fa.fa-windows(aria-hidden='true')]
+                            ol.collection
+                                li.collection-item
+                                    a(href=windowsdl) Download
+                                    |                             and unzip the file
+                                li.collection-item Drag the WAIL folder to a location of your choosing
+                                li.collection-item Launch WAIL.exe
+        .container
+            .section
+                .row.center
+                    h4.header.col.s12 Downloads
+                .row
+                    .col.s12
+                        .icon-block
+                            ul.collection
+                                li.collection-item
+                                    i.Medium.fa.fa-apple(aria-hidden='true')
+                                    a(href=macosdl)
+                                        |    MacOS
+                                li.collection-item
+                                    i.Medium.fa.fa-linux(aria-hidden='true')
+                                    a(href=linuxdl)
+                                        |    Linux 64bit
+                                li.collection-item
+                                    i.Medium.fa.fa-windows(aria-hidden='true')
+                                    a(href=windowsdl)
+                                        |    Windows 10 64bit
+        footer.page-footer.blue.darken-4
+            .container
+                .row
+                    .col.s12
+                        p.grey-text.text-lighten-4.flow-text
+                            | WAIL is a project of the
+                            a(href='https://ws-dl.cs.odu.edu/')
+                                | Web Science / Digital Libraries
+                                | Research Group
+                            |  at #[a(href='http://odu.edu/') Old Dominion University].
+                .row
+                    .col.s12
+                        p.grey-text.text-lighten-4
+                            | All tools aggregated in this software maintain their respective licenses.
+                            | WAIL is licensed under a
+                            a(rel='license', href='http://www.gnu.org/licenses/lgpl-3.0.txt')
+                                | GNU Lesser General Public License
+                                | v3.0.
+                            |  WAIL's source is available on #[a(href=projectHome) GitHub]
+        a(href=projectHome)
+            img.fork-me(src='https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png', alt='Fork me on GitHub')
+        script(type='text/javascript', src='js/jquery.js')
+        script(type='text/javascript', src='js/materialize.js')
+        script(src='js/init.js')

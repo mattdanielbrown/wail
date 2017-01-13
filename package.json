@@ -1,0 +1,18 @@
+{
+  "name": "wail-gh-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:N0taN3rd/wail.git",
+  "author": "N0taN3rd <n0tan3rd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "flex-layout-attribute": "^1.0.3",
+    "font-awesome": "^4.7.0",
+    "fs-extra": "^1.0.0",
+    "jquery": "^3.1.1",
+    "materialize-css": "^0.97.8"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-beta6"
+  }
+}
