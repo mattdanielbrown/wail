@@ -12,6 +12,9 @@ const wailHomeOpts = {
   linuxdl: `https://github.com/N0taN3rd/wail/releases/download/${version}/WAIL-linux-x64.zip`,
   windowsdl: `https://github.com/N0taN3rd/wail/releases/download/${version}/WAIL-win32-x64.zip`,
   projectHome: 'https://github.com/N0taN3rd/wail',
+  hd516:'https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HD-51670-13',
+  hd501:'https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HK-50181-14',
+  neh:'https://www.neh.gov/',
 }
 
 const compiledFunction = pug.compileFile(path.join(here, 'pug', 'index.pug'), {pretty: true})

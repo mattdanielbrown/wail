@@ -19,8 +19,8 @@ html(lang='en-US')
                     br
                     .row.center.header-icon
                         div(layout='row center-center')
-                            h1.header.center WAIL
-                            img#logo.circle.responsive-img(src='images/whale_64.png', alt='Web Archiving Integration Layer (WAIL)')
+                            h1.header.center #[a(href=projectHome, style='color:inherit; text-decoration: none;') WAIL]
+                            a(href=projectHome) #[img#logo.circle.responsive-img(src='images/whale_64.png', alt='Web Archiving Integration Layer (WAIL)')]
                     .row.center
                         h5.header.col.s12 Web Archiving Integration Layer
                         h5.header.col.s12 One-Click User Instigated Preservation
@@ -136,7 +136,11 @@ html(lang='en-US')
                             a(rel='license', href='http://www.gnu.org/licenses/lgpl-3.0.txt')
                                 | GNU Lesser General Public License
                                 | v3.0.
-                            |  WAIL's source is available on #[a(href=projectHome) GitHub]
+                            br
+                            | This work is supported by the #[a(href=neh) National Endowment for the Humanities] (NEH),
+                            | through Digital Humanities grants #[a(href=hd516) HD-51670-13] and #[a(href=hd501) HK-50181-14].
+                            br
+                            | WAIL's source is available on #[a(href=projectHome) GitHub]
             .footer-copyright
                 a(href=projectHome)
                     img.fork-me(src='https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png', alt='Fork me on GitHub')
