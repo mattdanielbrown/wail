@@ -64,7 +64,7 @@
     "del": "3.0.0",
     "drag-drop": "^2.13.2",
     "dropbox": "^2.5.11",
-    "electron": "1.8.1",
+    "electron": "15.5.5",
     "electron-oauth-twitter": "^1.1.0",
     "electron-settings": "3.1.2",
     "electron-window": "^0.8.1",
