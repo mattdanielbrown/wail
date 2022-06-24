@@ -7208,7 +7208,11 @@ moment-twitter@^0.2.0:
   dependencies:
     moment "~2.4.0"
 
-"moment@>= 2.6.0", moment@^2.10.6, moment@^2.18.1, moment@latest:
+"moment@>= 2.6.0", moment@^2.10.6, moment@^2.18.1, moment@^2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
+
+moment@latest:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
