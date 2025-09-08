@@ -231,7 +231,7 @@
     "highlight": "^0.2.4",
     "immutable-devtools": "^0.0.7",
     "json-loader": "^0.5.7",
-    "madge": "^2.2.0",
+    "madge": "^4.0.1",
     "minimist": "^1.2.0",
     "npm-check-updates": "^2.13.0",
     "pngjs": "^3.3.0",
