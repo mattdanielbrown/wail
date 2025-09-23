@@ -221,7 +221,7 @@
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.0",
     "electron-installer-dmg": "^0.2.1",
-    "electron-packager": "^9.1.0",
+    "electron-packager": "^17.1.2",
     "electron-rebuild": "^1.6.0",
     "eslint": "^4.8.0",
     "eslint-plugin-react": "^7.4.0",
