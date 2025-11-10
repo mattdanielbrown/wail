@@ -91,7 +91,7 @@
     "keymirror": "^0.1.1",
     "klaw": "^2.1.0",
     "lodash": "^4.17.4",
-    "lodash-es": "^4.17.4",
+    "lodash-es": "^4.17.20",
     "material-design-icons-iconfont": "^3.0.3",
     "material-ui": "^0.19.3",
     "mime-types": "^2.1.17",
